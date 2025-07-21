@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "@sap/hana-client": "^2.14.22",
+    "@sap/hdbext": "^7.7.3",
+    "axios": "^1.10.0",
+    "expres": "^0.0.5",
+    "express": "^4.18.2",
+    "stream": "^0.0.2"
+  },
+  "name": "callingdmcapiincustomnodejs",
+  "version": "1.0.1",
+  "description": "Building a Node.js Application to Consume SAP DMC APIs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "test"
+  }
+}
