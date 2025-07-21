@@ -15,10 +15,10 @@ var server = app.listen(process.env.PORT || 8080, function () {
 const axios = require('axios');
 const qs = require('qs');
 
-const clientId = 'sb-5a4cc893-075b-4847-aa0c-64ac8e5341eb!b5357|dmc-services-quality!b330';
-const clientSecret = 'h6fLBaZ8fs1PScAUhpMTlQoG0+8=';
-const tokenUrl = 'https://ritsdmc-az12fc9w.authentication.eu20.hana.ondemand.com/oauth/token';
-const dmcBaseUrl = 'https://api.test.eu20.dmc.cloud.sap';
+const clientId = '<client-Id>';
+const clientSecret = '<client-secret>';
+const tokenUrl = '<url>/oauth/token';
+const dmcBaseUrl = '<public-api-endpoint>';
 
 app.use(function (req, res, next) {
     res.header("Access-Control-Allow-Origin", "*");
